@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        fieldset {
+            width: 400px;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Output (Saída de dados)</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+       <fieldset>
+           
+           <p>
+               <label for="in1">Digite o 1º número: </label>
+               <input type="number" name="numero1" id="in1" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+           </p>
+           <p>
+               <label for="in2">Digite o 2º número: </label>
+               <input type="number" name="numero1" id="in2" min="0" max="50" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">               
+           </p>
+
+           <p>
+            <label for="isoma">A soma dos valores é: </label>
+            <output name="soma" id="isoma">0</output>
+           </p>
+
+           <p>
+               <input type="submit" value="Enviar!">
+               <input type="reset" value="Limpar">
+           </p>
+       </fieldset>
+    </form>
+</body>
+</html>
