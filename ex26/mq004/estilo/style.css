@@ -10,20 +10,16 @@
     box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
 body, html {
-    width: 97vw;
     height: 100vh;
+    overflow-y: hidden;
 }
 
 body {
     background: black url(../../imagens/back-phone.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
 
 main {
@@ -44,7 +40,6 @@ h1 {
 img {
     display: block;
     margin: auto;
-    height: 150px;
 }
 
 img#phone {display: block;}
