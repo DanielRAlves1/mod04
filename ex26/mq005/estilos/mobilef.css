@@ -17,7 +17,22 @@ header {
 
 }
 
+span#burguer {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    }
+
+span#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 nav {
+    display: none;
     text-align: left;
     background-color: rgb(87, 87, 87);
     padding: 10px;
