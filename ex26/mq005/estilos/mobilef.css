@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(194, 194, 194); 
 }
 
 header {
@@ -39,6 +39,10 @@ nav {
     margin: 0px;
 }
 
+p#identablet {display: none;}
+p#idenpc {display: none;}
+p#idengrandes {display: none;}
+
 nav > a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -58,7 +62,7 @@ main {
     max-width: 600px;
     background-color: white;
     border-radius: 10px;
-    margin: 10px;
+    margin: auto;   
 }
 
 article#principal {
