@@ -39,10 +39,6 @@ nav {
     margin: 0px;
 }
 
-p#identablet {display: none;}
-p#idenpc {display: none;}
-p#idengrandes {display: none;}
-
 nav > a {
     text-decoration: none;
     color: rgb(255, 255, 255);

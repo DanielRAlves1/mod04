@@ -8,12 +8,6 @@
     nav {
         display: block;
     }
-    
-    p#idenpc {
-        display: inline;
-        padding-top: 10px;
-        margin-left: 42%;
-    }
 
     main {
         max-width: 960px;

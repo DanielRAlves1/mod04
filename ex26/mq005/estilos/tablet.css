@@ -8,12 +8,6 @@
     nav {
         display: block;
     }
-    
-    p#identablet {
-        display: inline;
-        padding-top: 10px;
-        margin-left: 37%;
-    }
 
     main {
         max-width: 760px;
